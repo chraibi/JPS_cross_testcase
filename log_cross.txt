@@ -1,0 +1,3993 @@
+INFO: 	Loading and parsing the persons attributes
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	risk tolerance mu = 0.000000, risk tolerance sigma = 1.000000
+
+INFO:	Loading sources
+INFO:	  Source with id 1 will be parsed (greedy = 0)!
+INFO:	  Source with id 2 will be parsed (greedy = 0)!
+INFO:	  Source with id 3 will be parsed (greedy = 0)!
+INFO:	  Source with id 4 will be parsed (greedy = 0)!
+INFO:	  Source with id 5 will be parsed (greedy = 0)!
+INFO:	  Source with id 6 will be parsed (greedy = 0)!
+INFO:	  Source with id 7 will be parsed (greedy = 0)!
+INFO:	  Source with id 8 will be parsed (greedy = 0)!
+INFO: 	...Done
+INFO:	Not parsing transition from file
+INFO:	Got 8 transitions
+INFO: 	Loading building file successful!!!
+
+INFO:	Loading goal
+INFO:	  Goal id: 0
+INFO:	  Goal caption: left_up
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 0
+INFO:	Loading goal
+INFO:	  Goal id: 1
+INFO:	  Goal caption: up_left
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 1
+INFO:	Loading goal
+INFO:	  Goal id: 2
+INFO:	  Goal caption: up_right
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 2
+INFO:	Loading goal
+INFO:	  Goal id: 3
+INFO:	  Goal caption: right_up
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 3
+INFO:	Loading goal
+INFO:	  Goal id: 4
+INFO:	  Goal caption: right_down
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 4
+INFO:	Loading goal
+INFO:	  Goal id: 5
+INFO:	  Goal caption: down_right
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 5
+INFO:	Loading goal
+INFO:	  Goal id: 6
+INFO:	  Goal caption: down_left
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 6
+INFO:	Loading goal
+INFO:	  Goal id: 7
+INFO:	  Goal caption: left_down
+INFO:	  Goal room_id: -1
+INFO:	  Goal subroom_id: -1
+INFO:	  finished parsing goal 7
+INFO:	Goal file not parsed
+INFO:	done with loading extra routing information
+INFO:	Loading the traffic info
+Info:	  no room info found in inifile
+Info:	  no door info found in inifile
+Info:	  no traffic file found.
+INFO:	Done with loading traffic info file
+--------
+INFO:	Loading the train info
+WARNING:	No train constraints were found. Continue.
+INFO: 	Init Geometry
+INFO:	enter correct ...
+INFO:	file saved to ../correct_geometry.xml
+INFO:	Leave geometry correct with success (0.622 s)
+INFO: 	InitInsideGoals successful!!!
+
+INFO: 	Init Geometry successful!!!
+
+INFO: 	Init Distribute
+INFO: 	Initializing the grid with cell size: 2.200000 
+INFO: 	Done with Initializing the grid 
+FloorfieldViaFMTrips::FloorfieldViaFMTrips(...)
+INFO: 	Adding distances in Room 0 to matrix
+INFO:	 FloydWarshall done!
+INFO: 	FF Router Init done.
+INFO: 	Checking the geometry for artifacts: (Ignore Warnings, if ff_[...] router is used!)
+WARNING:	 you have obstacles in room [0] Subroom [4]!
+        	 you might consider adding extra hlines in your routing.xml file
+INFO: 	...Done!!!
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 1
+>> Group ID   : 1
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 2
+>> Group ID   : 2
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 3
+>> Group ID   : 3
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 4
+>> Group ID   : 4
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 5
+>> Group ID   : 5
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 6
+>> Group ID   : 6
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 7
+>> Group ID   : 7
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+
+--------------------------
+Dumping Source
+>> Caption    : no caption
+>> Source ID  : 8
+>> Group ID   : 8
+>> Frequency  : 20
+>> Agents Max : 80
+>> Agents Pool: 0
+>> Agent id   : -1
+>> Time       : 0.00
+>> StartX     : nan
+>> StartY     : nan
+>> Percent    : 0.03
+>> Rate       : 3.00
+>> N_create   : 40
+>> Boundaries : X-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+                Y-axis [-340282346638528859811704183484516925440.0000 -- 340282346638528859811704183484516925440.0000]
+>> LifeSpan   : [3 -- 160]
+
+--------------------------
+
+INFO:	 Init Operational Model starting ...
+INFO:	 Init DirectionLOCALFloorfield starting ...
+INFO: 	Calling Constructor of UnivFFviaFM(Room-scale) in DirectionLocalFloorfield::Init(...)
+INFO: 	Time to construct FF in DirectionLocalFloorfield: 0.181971
+INFO:	 Init DirectionLOCALFloorfield done
+INFO:	 Init Operational Model done
+Got 0 Train Types
+WARNING:	Got 0 Train Time Tables
+INFO:	 nPeds 0 received
+INFO: 	Adding a new routing Engine with the key: 0:1:2:3:4:5:6:7
+
+INFO: 	Looking for pre-defined events in other files
+INFO:	Files '/home/guido/Workspace/Cross/JPS_cross_testcase/640_peds/events.txt' missing. Realtime interaction with the simulation not possible.
+INFO: 	events </home/guido/Workspace/Cross/JPS_cross_testcase/640_peds/events_list.xml>
+INFO: 	Parsing the event file
+ERROR: 	Failed to open file
+ERROR: 	 could not parse the event file.
+ERROR: 	Could not initialize events handling
+INFO: 	Reading schedule
+INFO: 	No events found
+INFO: 	Start runSimulation() with 0 pedestrians
+INFO:	Starting agent manager thread
+INFO:	Update door statistics at t=9.60
+
+Rooms Egress. Simulation Time: 9.60
+==================
+id	caption	egress time (s)
+0	hall	0.00
+
+Usage of Exits
+==========
+
+Usage of Crossings
+==========
+
+
+INFO:	Update door statistics at t=19.21
+
+Rooms Egress. Simulation Time: 19.21
+==================
+id	caption	egress time (s)
+0	hall	0.00
+
+Usage of Exits
+==========
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 20.000 s, 39 (79 remaining in pool)
+
+WARNING:	 pedestrian [401] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735818. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [81] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731425. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [161] left room/subroom [0/1] in an unusual way. Please check
+xml>
+. Realtime interaction with the simulation not possible.
+               à#
+WARNING:	 pedestrian [161] left room/subroom [0/1] in an unusual way. Please check
+xml>
+. Realtime interaction with the simulation not possible.
+               à#
+       :	 distance to last door (77 | 77) is 19.186536. That should be smaller.
+ck
+xml>
+. Realtime interaction with the simulation not possible.
+               à#
+WARNING:	 pedestrian [321] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.711632. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING       :	 correcting the door statistics failed!
+That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING       :	 correcting the door statistics failed!
+That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [481] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188953. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [241] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.024583. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [561] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.437963. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 23.000 s, 38 (78 remaining in pool)
+
+WARNING:	 pedestrian [402] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736365. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [82] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730674. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [2] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.578627. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [162] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.186626. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [322] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705880. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [482] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.180999. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [242] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.030239. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [562] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.443753. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 26.000 s, 37 (77 remaining in pool)
+
+WARNING:	 pedestrian [403] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736364. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [83] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731044. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [323] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.709683. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [3] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.582781. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [163] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.182975. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [483] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188380. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [243] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025608. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [563] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441674. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=28.83
+
+Rooms Egress. Simulation Time: 28.83
+==================
+id	caption	egress time (s)
+0	hall	0.00
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [3] pedestrians. Last passing time [28.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [3] pedestrians. Last passing time [28.03] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [3] pedestrians. Last passing time [28.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [3] pedestrians. Last passing time [28.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [3] pedestrians. Last passing time [26.70] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [3] pedestrians. Last passing time [28.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [3] pedestrians. Last passing time [28.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [3] pedestrians. Last passing time [26.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 29.000 s, 36 (76 remaining in pool)
+
+WARNING:	 pedestrian [404] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735966. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [84] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.729863. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [4] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.581452. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [164] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180391. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [324] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705208. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [484] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187298. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [244] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.024887. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [564] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.439908. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 32.000 s, 35 (75 remaining in pool)
+
+WARNING:	 pedestrian [405] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735122. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [85] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730276. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [5] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.582901. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [165] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188694. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [325] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705522. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [485] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.180883. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [245] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027483. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [565] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.438948. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 35.000 s, 34 (74 remaining in pool)
+
+WARNING:	 pedestrian [406] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736394. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [86] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.722576. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [6] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.583392. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [326] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712626. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [166] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.179969. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [486] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187041. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [246] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026113. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [566] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.439868. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 38.000 s, 33 (73 remaining in pool)
+
+WARNING:	 pedestrian [407] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735336. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=38.44
+
+Rooms Egress. Simulation Time: 38.44
+==================
+id	caption	egress time (s)
+0	hall	0.00
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [6] pedestrians. Last passing time [37.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [6] pedestrians. Last passing time [37.03] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [6] pedestrians. Last passing time [37.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [6] pedestrians. Last passing time [37.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [6] pedestrians. Last passing time [35.71] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [6] pedestrians. Last passing time [37.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [6] pedestrians. Last passing time [37.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [7] pedestrians. Last passing time [38.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [87] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.722471. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 40.000 s, 39 (72 remaining in pool)
+
+WARNING:	 pedestrian [7] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.581613. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [167] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.187063. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [327] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.706753. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [487] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.182684. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [247] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.022922. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [567] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441920. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [248] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.112491. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 41.000 s, 38 (71 remaining in pool)
+
+WARNING:	 pedestrian [408] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.637938. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [568] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.305143. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [489] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.278356. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [8] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.723486. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [168] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.253189. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [409] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.593696. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [328] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704127. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [488] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.100060. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [89] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.643953. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [169] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.062259. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [329] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.547072. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [9] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.991522. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [249] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.024644. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [88] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.692659. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [569] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.176527. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 44.000 s, 37 (70 remaining in pool)
+
+WARNING:	 pedestrian [410] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735666. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [90] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730932. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [10] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.578529. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [170] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180930. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [330] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.707060. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [490] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.184763. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [250] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.024796. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [570] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.437370. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 47.000 s, 36 (69 remaining in pool)
+
+WARNING:	 pedestrian [411] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735777. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [91] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730607. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=48.06
+
+Rooms Egress. Simulation Time: 48.06
+==================
+id	caption	egress time (s)
+0	hall	47.86
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [12] pedestrians. Last passing time [46.03] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [11] pedestrians. Last passing time [46.03] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [12] pedestrians. Last passing time [46.77] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [12] pedestrians. Last passing time [46.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [13] pedestrians. Last passing time [47.86] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [12] pedestrians. Last passing time [46.17] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [12] pedestrians. Last passing time [46.20] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [13] pedestrians. Last passing time [47.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [11] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.584852. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [171] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188203. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [331] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704369. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [491] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189429. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [251] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026675. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [571] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.442114. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 50.000 s, 35 (68 remaining in pool)
+
+WARNING:	 pedestrian [412] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736224. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [92] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730873. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [12] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.580855. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [172] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.186774. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [332] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.710051. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [492] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189576. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [252] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028188. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [572] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440740. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 53.000 s, 34 (67 remaining in pool)
+
+WARNING:	 pedestrian [413] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735673. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [93] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730872. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [13] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.583558. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [173] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180686. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [333] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.706668. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [493] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187347. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [253] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025372. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [573] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.443110. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 56.000 s, 33 (66 remaining in pool)
+
+WARNING:	 pedestrian [414] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735507. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [94] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731628. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=57.67
+
+Rooms Egress. Simulation Time: 57.67
+==================
+id	caption	egress time (s)
+0	hall	57.16
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [17] pedestrians. Last passing time [55.03] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [17] pedestrians. Last passing time [56.03] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [18] pedestrians. Last passing time [56.31] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [18] pedestrians. Last passing time [55.55] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [19] pedestrians. Last passing time [56.90] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [18] pedestrians. Last passing time [55.57] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [18] pedestrians. Last passing time [55.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [20] pedestrians. Last passing time [57.16] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [14] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.584192. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [174] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.186912. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [334] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712876. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [494] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188549. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [254] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028216. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [574] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440371. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 59.000 s, 32 (65 remaining in pool)
+
+WARNING:	 pedestrian [415] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736150. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [95] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731452. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 60.000 s, 39 (64 remaining in pool)
+
+WARNING:	 pedestrian [576] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.343144. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [256] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.101383. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [96] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.696372. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [15] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.579289. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [175] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188110. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [335] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705584. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [495] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.184617. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [255] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026924. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [575] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440391. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [416] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.566528. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 62.000 s, 38 (63 remaining in pool)
+
+WARNING:	 pedestrian [16] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.798508. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [176] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.278668. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [496] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.099075. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [336] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.703590. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [417] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.576821. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [177] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.104545. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [257] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.046948. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [17] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.644442. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [497] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.261251. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [577] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.437582. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [337] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.696329. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 65.000 s, 37 (62 remaining in pool)
+
+WARNING:	 pedestrian [418] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.716592. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [97] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.690030. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [18] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.591768. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [178] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.186887. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [338] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705316. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [498] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.180335. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [258] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027158. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [578] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441657. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=67.29
+
+Rooms Egress. Simulation Time: 67.29
+==================
+id	caption	egress time (s)
+0	hall	66.93
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [26] pedestrians. Last passing time [67.03] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [24] pedestrians. Last passing time [67.04] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [25] pedestrians. Last passing time [67.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [25] pedestrians. Last passing time [67.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [23] pedestrians. Last passing time [65.66] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [27] pedestrians. Last passing time [67.02] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [24] pedestrians. Last passing time [67.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [27] pedestrians. Last passing time [65.36] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 68.000 s, 36 (61 remaining in pool)
+
+WARNING:	 pedestrian [419] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735565. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [98] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.692324. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [19] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.608271. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [179] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.183763. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [339] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.711140. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [499] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181104. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [259] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.029637. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [579] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.443746. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 71.000 s, 35 (60 remaining in pool)
+
+WARNING:	 pedestrian [420] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735532. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [99] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.689714. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [20] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.603213. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [180] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.187882. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [340] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704797. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [500] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188455. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [260] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.023720. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [580] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441119. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 74.000 s, 34 (59 remaining in pool)
+
+WARNING:	 pedestrian [421] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735949. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [100] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.693781. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [21] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.607212. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [181] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188938. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [341] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.710388. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [501] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189343. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [261] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.023471. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [581] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440194. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=76.90
+
+Rooms Egress. Simulation Time: 76.90
+==================
+id	caption	egress time (s)
+0	hall	76.60
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [33] pedestrians. Last passing time [76.23] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [29] pedestrians. Last passing time [76.60] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [31] pedestrians. Last passing time [76.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [33] pedestrians. Last passing time [76.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [30] pedestrians. Last passing time [75.95] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [33] pedestrians. Last passing time [76.02] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [31] pedestrians. Last passing time [76.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [33] pedestrians. Last passing time [75.90] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 77.000 s, 33 (58 remaining in pool)
+
+WARNING:	 pedestrian [422] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735911. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [101] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.697180. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [22] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.607272. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [182] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.186252. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [342] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712666. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [502] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181734. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [262] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025161. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [582] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.443162. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 80.000 s, 39 (57 remaining in pool)
+
+WARNING:	 pedestrian [423] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735287. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [102] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.691809. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [23] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.602998. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [183] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.184647. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [343] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705375. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [503] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187701. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [263] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026398. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [583] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440789. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 83.000 s, 38 (56 remaining in pool)
+
+WARNING:	 pedestrian [424] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735870. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [103] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.693449. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [184] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188055. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [344] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712243. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [24] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.599025. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [504] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189557. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [264] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028713. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [584] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441487. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 86.000 s, 37 (55 remaining in pool)
+
+WARNING:	 pedestrian [425] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735547. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [104] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.695620. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=86.52
+
+Rooms Egress. Simulation Time: 86.52
+==================
+id	caption	egress time (s)
+0	hall	86.44
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [39] pedestrians. Last passing time [85.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [37] pedestrians. Last passing time [85.80] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [39] pedestrians. Last passing time [85.44] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [39] pedestrians. Last passing time [86.44] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [38] pedestrians. Last passing time [86.51] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [38] pedestrians. Last passing time [85.02] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [39] pedestrians. Last passing time [86.12] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [40] pedestrians. Last passing time [86.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [25] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.606190. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [185] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.179774. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [345] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.707912. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [505] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189619. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [265] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027485. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [585] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.438033. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 89.000 s, 36 (54 remaining in pool)
+
+WARNING:	 pedestrian [426] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736299. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [105] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.689713. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [26] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.609134. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [186] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.185300. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [346] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.713018. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [506] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181244. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [266] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.023767. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [586] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.438253. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 92.000 s, 35 (53 remaining in pool)
+
+WARNING:	 pedestrian [427] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736000. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [106] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.695605. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [27] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.605750. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [347] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712654. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [187] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.182437. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [507] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189215. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [267] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028312. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [587] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441603. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 95.000 s, 34 (52 remaining in pool)
+
+WARNING:	 pedestrian [428] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735764. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [107] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.697706. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=96.13
+
+Rooms Egress. Simulation Time: 96.13
+==================
+id	caption	egress time (s)
+0	hall	96.07
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [46] pedestrians. Last passing time [95.46] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [44] pedestrians. Last passing time [94.85] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [46] pedestrians. Last passing time [94.94] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [47] pedestrians. Last passing time [96.07] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [45] pedestrians. Last passing time [95.50] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [45] pedestrians. Last passing time [94.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [44] pedestrians. Last passing time [94.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [46] pedestrians. Last passing time [95.46] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [28] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.606576. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [188] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.185664. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [348] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.713656. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [508] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189064. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [268] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.030085. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [588] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441299. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 98.000 s, 33 (51 remaining in pool)
+
+WARNING:	 pedestrian [429] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736250. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [108] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.697647. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 100.000 s, 39 (50 remaining in pool)
+
+WARNING:	 pedestrian [29] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.605027. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [189] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.185805. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [349] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.708414. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [509] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188443. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [269] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.029574. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [589] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.445425. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [270] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.112941. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 101.000 s, 38 (49 remaining in pool)
+
+WARNING:	 pedestrian [430] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.636617. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [590] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.305439. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [109] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.692329. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [511] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.278105. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [190] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.259219. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [431] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.595044. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [350] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.703541. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [510] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.105778. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [110] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.579365. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [111] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.682528. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [191] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.064344. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [351] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.545260. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [271] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.030454. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [30] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.686425. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [31] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.857186. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [591] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.175908. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 104.000 s, 37 (48 remaining in pool)
+
+WARNING:	 pedestrian [432] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736044. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [112] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731238. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=105.75
+
+Rooms Egress. Simulation Time: 105.75
+==================
+id	caption	egress time (s)
+0	hall	105.18
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [54] pedestrians. Last passing time [105.18] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [50] pedestrians. Last passing time [102.30] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [52] pedestrians. Last passing time [103.98] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [53] pedestrians. Last passing time [103.96] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [51] pedestrians. Last passing time [104.70] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [53] pedestrians. Last passing time [103.01] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [52] pedestrians. Last passing time [103.27] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [53] pedestrians. Last passing time [104.55] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [32] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.583426. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [192] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180413. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [352] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704922. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [512] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188953. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [272] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027275. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [592] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.439264. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 107.000 s, 36 (47 remaining in pool)
+
+WARNING:	 pedestrian [433] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735838. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [113] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731309. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [33] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.581118. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [193] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.187809. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [353] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704675. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [513] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189140. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [273] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026987. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [593] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440447. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 110.000 s, 35 (46 remaining in pool)
+
+WARNING:	 pedestrian [434] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736110. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [114] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731206. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [34] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.580564. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [194] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.187541. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [354] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.706872. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [514] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188090. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [274] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027328. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [594] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.439981. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 113.000 s, 34 (45 remaining in pool)
+
+WARNING:	 pedestrian [435] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735748. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [115] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.729761. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [35] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.582505. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [355] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.711148. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [195] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180357. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [515] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189669. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [275] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028609. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [595] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.438909. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=115.37
+
+Rooms Egress. Simulation Time: 115.37
+==================
+id	caption	egress time (s)
+0	hall	115.30
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [59] pedestrians. Last passing time [115.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [59] pedestrians. Last passing time [115.30] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [58] pedestrians. Last passing time [115.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [61] pedestrians. Last passing time [115.02] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [58] pedestrians. Last passing time [115.12] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [60] pedestrians. Last passing time [115.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [59] pedestrians. Last passing time [115.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [58] pedestrians. Last passing time [113.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 116.000 s, 33 (44 remaining in pool)
+
+WARNING:	 pedestrian [436] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735399. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [116] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.731329. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [36] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.582139. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [356] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.711193. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [196] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180099. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [516] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.183204. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [276] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025776. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [596] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.443260. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 119.000 s, 32 (43 remaining in pool)
+
+WARNING:	 pedestrian [437] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736060. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [117] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.730367. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 120.000 s, 39 (42 remaining in pool)
+
+WARNING:	 pedestrian [598] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.343705. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [278] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.101931. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [118] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.694550. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [37] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.582303. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [197] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180012. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [357] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.706425. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [517] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.190757. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [277] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026972. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [597] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.448827. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [438] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.567965. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 122.000 s, 38 (41 remaining in pool)
+
+WARNING:	 pedestrian [38] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.796436. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [198] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.285481. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [518] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.099965. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [358] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.702904. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [439] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.583556. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [199] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.102844. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [279] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.048848. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [39] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.638067. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [519] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.260821. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [599] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441410. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [359] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.701760. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=124.98
+
+Rooms Egress. Simulation Time: 124.98
+==================
+id	caption	egress time (s)
+0	hall	124.78
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [67] pedestrians. Last passing time [124.87] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [65] pedestrians. Last passing time [124.78] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [67] pedestrians. Last passing time [124.31] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [68] pedestrians. Last passing time [124.03] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [64] pedestrians. Last passing time [123.90] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [68] pedestrians. Last passing time [124.01] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [67] pedestrians. Last passing time [124.01] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [67] pedestrians. Last passing time [123.78] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO:	Source 1 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 125.000 s, 37 (40 remaining in pool)
+
+WARNING:	 pedestrian [440] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.714513. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [119] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.693705. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [40] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.592393. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [360] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.713781. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [200] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.183807. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [520] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181821. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [280] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026460. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [600] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441382. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 128.000 s, 36 (39 remaining in pool)
+
+WARNING:	 pedestrian [441] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735685. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [120] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.696776. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [41] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.612441. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [201] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.189105. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [361] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.707669. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [521] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181605. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [281] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027960. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [601] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440572. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 131.000 s, 35 (38 remaining in pool)
+
+WARNING:	 pedestrian [442] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735567. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [121] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.693062. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [42] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.604797. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [362] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.713554. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [202] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.181263. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [522] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.180331. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [282] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.022995. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [602] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440100. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 134.000 s, 34 (37 remaining in pool)
+
+WARNING:	 pedestrian [443] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735896. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [122] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.694764. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=134.60
+
+Rooms Egress. Simulation Time: 134.60
+==================
+id	caption	egress time (s)
+0	hall	133.95
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [73] pedestrians. Last passing time [133.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [71] pedestrians. Last passing time [133.04] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [74] pedestrians. Last passing time [133.67] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [75] pedestrians. Last passing time [133.95] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [73] pedestrians. Last passing time [134.50] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [74] pedestrians. Last passing time [133.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [72] pedestrians. Last passing time [133.05] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [74] pedestrians. Last passing time [134.30] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [43] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.606998. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [203] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.189196. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [363] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.713700. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [523] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181330. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [283] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.027408. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [603] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440013. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 137.000 s, 33 (36 remaining in pool)
+
+WARNING:	 pedestrian [444] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735340. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [123] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.692803. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [44] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.603714. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [204] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.181035. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [364] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705329. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [524] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187736. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [284] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025618. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [604] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441191. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 140.000 s, 39 (35 remaining in pool)
+
+WARNING:	 pedestrian [445] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736059. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [124] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.690220. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [45] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.605979. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [205] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.182429. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [365] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.705820. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [525] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.187611. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [285] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026475. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [605] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441131. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 143.000 s, 38 (34 remaining in pool)
+
+WARNING:	 pedestrian [446] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736328. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [125] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.695284. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=144.21
+
+Rooms Egress. Simulation Time: 144.21
+==================
+id	caption	egress time (s)
+0	hall	144.11
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [80] pedestrians. Last passing time [143.02] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [78] pedestrians. Last passing time [142.03] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [80] pedestrians. Last passing time [142.10] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [79] pedestrians. Last passing time [142.24] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [80] pedestrians. Last passing time [143.70] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [80] pedestrians. Last passing time [143.35] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [80] pedestrians. Last passing time [144.11] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [80] pedestrians. Last passing time [143.58] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [46] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.602936. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [366] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712407. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [206] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.181194. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [526] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.186350. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [286] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.028290. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [606] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.446639. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 146.000 s, 37 (33 remaining in pool)
+
+WARNING:	 pedestrian [447] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.735965. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [126] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.695350. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [47] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.602891. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [207] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.187825. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [367] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712426. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [527] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.188273. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [287] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.029175. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [607] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440968. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 149.000 s, 36 (32 remaining in pool)
+
+WARNING:	 pedestrian [448] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736014. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [127] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.691399. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [48] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.606337. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [208] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.185808. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [368] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712590. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [528] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.181521. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [288] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025611. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [608] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441347. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 152.000 s, 35 (31 remaining in pool)
+
+WARNING:	 pedestrian [449] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736026. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [128] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.692134. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=153.83
+
+Rooms Egress. Simulation Time: 153.83
+==================
+id	caption	egress time (s)
+0	hall	153.69
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [85] pedestrians. Last passing time [151.84] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [83] pedestrians. Last passing time [151.04] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [84] pedestrians. Last passing time [152.70] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [85] pedestrians. Last passing time [152.82] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [86] pedestrians. Last passing time [153.38] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [87] pedestrians. Last passing time [151.38] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [86] pedestrians. Last passing time [153.31] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [89] pedestrians. Last passing time [153.69] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+WARNING:	 pedestrian [49] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.607338. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [369] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.712298. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [209] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.180159. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [529] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.189607. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [289] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026712. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [609] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.440498. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 155.000 s, 34 (30 remaining in pool)
+
+WARNING:	 pedestrian [450] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736166. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [129] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.691483. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [50] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.604748. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [210] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.188954. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [370] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.704598. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [530] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.182220. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [290] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.026768. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [610] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.442453. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 158.000 s, 33 (29 remaining in pool)
+
+WARNING:	 pedestrian [451] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.736309. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [130] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.693743. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+
+INFO:	Source 1 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 2 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 3 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 4 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 5 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 6 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 7 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+
+INFO:	Source 8 generating 1 agents at 160.000 s, 39 (28 remaining in pool)
+
+WARNING:	 pedestrian [51] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.603057. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [211] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.189158. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [371] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.711091. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [531] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.180455. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [291] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.025199. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [611] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.441262. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [292] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (78 | 78) is 19.110287. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Terminating agent manager thread
+WARNING:	 pedestrian [452] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (79 | 79) is 18.635133. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [612] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (74 | 74) is 19.307207. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [131] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.689563. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [212] left room/subroom [0/1] in an unusual way. Please check
+       :	 distance to last door (77 | 77) is 19.252041. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [372] left room/subroom [0/2] in an unusual way. Please check
+       :	 distance to last door (72 | 72) is 18.702685. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [532] left room/subroom [0/3] in an unusual way. Please check
+       :	 distance to last door (73 | 73) is 19.106590. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [132] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (76 | 76) is 18.579023. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+WARNING:	 pedestrian [52] left room/subroom [0/0] in an unusual way. Please check
+       :	 distance to last door (75 | 75) is 18.696902. That should be smaller.
+       :	 correcting the door statistics
+WARNING       :	 correcting the door statistics failed!
+INFO:	Update door statistics at t=163.44
+
+Rooms Egress. Simulation Time: 163.44
+==================
+id	caption	egress time (s)
+0	hall	163.29
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [90] pedestrians. Last passing time [162.29] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [91] pedestrians. Last passing time [163.29] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [93] pedestrians. Last passing time [162.13] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [93] pedestrians. Last passing time [163.31] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [93] pedestrians. Last passing time [162.51] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [94] pedestrians. Last passing time [162.03] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [92] pedestrians. Last passing time [161.96] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [94] pedestrians. Last passing time [161.10] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+INFO:	Update door statistics at t=173.06
+
+Rooms Egress. Simulation Time: 173.06
+==================
+id	caption	egress time (s)
+0	hall	172.59
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [93] pedestrians. Last passing time [172.59] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [94] pedestrians. Last passing time [169.63] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [96] pedestrians. Last passing time [172.52] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [95] pedestrians. Last passing time [172.43] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [97] pedestrians. Last passing time [171.65] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [99] pedestrians. Last passing time [172.00] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [95] pedestrians. Last passing time [167.57] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [97] pedestrians. Last passing time [172.47] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+INFO:	Update door statistics at t=182.67
+
+Rooms Egress. Simulation Time: 182.67
+==================
+id	caption	egress time (s)
+0	hall	182.56
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [96] pedestrians. Last passing time [182.56] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [97] pedestrians. Last passing time [179.69] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [98] pedestrians. Last passing time [180.40] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [98] pedestrians. Last passing time [176.80] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [100] pedestrians. Last passing time [182.16] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [102] pedestrians. Last passing time [182.02] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [96] pedestrians. Last passing time [174.96] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [100] pedestrians. Last passing time [179.90] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+INFO:	Update door statistics at t=192.29
+
+Rooms Egress. Simulation Time: 192.29
+==================
+id	caption	egress time (s)
+0	hall	192.19
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [101] pedestrians. Last passing time [191.07] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [100] pedestrians. Last passing time [192.13] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [103] pedestrians. Last passing time [189.52] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [103] pedestrians. Last passing time [190.81] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [104] pedestrians. Last passing time [187.98] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [104] pedestrians. Last passing time [185.47] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [102] pedestrians. Last passing time [192.19] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [104] pedestrians. Last passing time [190.01] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+INFO: 	End runSimulation()
+
+Rooms Egress. Simulation Time: 197.63
+==================
+id	caption	egress time (s)
+0	hall	197.62
+
+Usage of Exits
+==========
+
+Exit ID [0] used by [104] pedestrians. Last passing time [197.62] s
+More Information in the file: flow_exit_id_0_cross.txt
+
+Exit ID [1] used by [104] pedestrians. Last passing time [197.57] s
+More Information in the file: flow_exit_id_1_cross.txt
+
+Exit ID [2] used by [104] pedestrians. Last passing time [196.08] s
+More Information in the file: flow_exit_id_2_cross.txt
+
+Exit ID [3] used by [104] pedestrians. Last passing time [195.66] s
+More Information in the file: flow_exit_id_3_cross.txt
+
+Exit ID [4] used by [104] pedestrians. Last passing time [187.98] s
+More Information in the file: flow_exit_id_4_cross.txt
+
+Exit ID [5] used by [104] pedestrians. Last passing time [185.47] s
+More Information in the file: flow_exit_id_5_cross.txt
+
+Exit ID [6] used by [104] pedestrians. Last passing time [193.77] s
+More Information in the file: flow_exit_id_6_cross.txt
+
+Exit ID [7] used by [104] pedestrians. Last passing time [190.01] s
+More Information in the file: flow_exit_id_7_cross.txt
+
+Usage of Crossings
+==========
+
+
+
+Exec Time [s]     : 391.00
+Evac Time [s]     : 197.63
+Realtime Factor   : 0.51 X 
+Number of Threads : 4
+Warnings          : 835
+Errors            : 3
+Deleted Agents    : 0
+
